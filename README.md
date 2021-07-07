@@ -1,2 +1,2 @@
 # hvac-practice
-Best practice for design and modelling HVAC systems
+Best practice for design and modelling HVAC
