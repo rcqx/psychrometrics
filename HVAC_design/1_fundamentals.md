@@ -14,13 +14,11 @@ optioneering and applicables codes. Larsen, 2012
 
 Haines and Wilson (2003) fundamental HVAC practice revolve:
 * Problem Solving
-: A series of logical steps: 1) Define objective/problem (best suitable conditions & optimal proposal), 2) Define & evaluate options, 3) Select and check alternative,
- 4) Implement: design, construct and operate system, 5) Evaluate: objectives met? room for improvements? 
+: A series of logical steps: 1) Define objective/problem (best suitable conditions & optimal proposal), 2) Define & evaluate options, 3) Select and check alternative 4) Implement: design, construct and operate system, 5) Evaluate: objectives met? room for improvements? 
 
 * Value Engineering (VE)
 : Analytical thought process which deﬁnes a problem, proposes solutions, identiﬁes the optimum approach, and ﬁnally presents the solution in a credible and compelling
- way. VE in construction presumes an issues at hand that gets resolves by 1) Gathering information, 2) Developing alternatives, 3) Evaluating alternatives and
-4) Selling the best option.
+ way. VE in construction presumes an issues at hand that gets resolves by 1) Gathering information, 2) Developing alternatives, 3) Evaluating alternatives and 4) Selling the best option.
   
 * Codes and regulation
 
