@@ -39,14 +39,21 @@ optioneering and applicables codes. Larsen, 2012
 • Space limitations, both indoors and outdoors, and coordination with architectural, structural, and electrical systems
 
 **Designers must understand (Haines & Wilson, 2003):** 
-1. HVAC system design
+1. HVAC system design / HVAC Cycles / Control strategies
 2. Outdoor climate
-3. Comfort requirements 
+3. Comfort requirements: temperature, relative humidity, air movement, and radiant effects. 
 4. Building construction and suitable system options
 
 **Building and spaces usage (Haines & Wilson, 2003):**
-It is also necessary to understand the use of the building and in
-most buildings the use of each part. How does this use affect occu-
-pancy, activity level, humidity, temperature, and ventilation require-
+It is necessary to understand the use of the building and in
+most buildings the use of each part. How does this use affect occu
+pancy, activity level, humidity, temperature, and ventilation require
 ments? Designers must have answers to these and many other ques-
 tions before they can design a suitable HVAC system.
+
+_"While all the details
+are necessary to develop a functional system, the designer must never
+lose sight of the objective of the HVAC system: to provide a suitable
+environment for comfort or for a process"_ Heines, 2003
+
+
