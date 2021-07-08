@@ -1,5 +1,5 @@
 # HVAC fundamentals
-![Alt text](1024px-Refrigeration_PV_diagram.svg.png "PV Chart")
+
 ### Definition 
 _"concerned with heating, ventilating and air conditioning the indoor environment to meet the comfort, health, and safety needs of buildings, occupants and the 
 environmental needs of indoor equipments or processes"_ Larsen, 2012
