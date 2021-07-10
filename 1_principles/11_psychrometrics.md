@@ -1,5 +1,6 @@
 # 1. PSYCHROMETRICS
-The use of thermodynamic properties to analyse conditions and processes involving moist air.
+Psychrometrics are the study of physical and thermodynamic properties of moist air, i.e.,
+the use of thermodynamic properties to analyse conditions and processes involving moist air.
 
 ## 1.1 Dry and moist air composition
 Atmospheric air: Contains gaseous components as well as water vapor and miscellaneous contaminants
@@ -12,7 +13,6 @@ depends on temperature and pressure.
 Saturation:State of equilibrium between moist air and condensed water phase (liquid or solid).  
 
 ## 1.2 Standard atmosphere
-
 Temperature and barometric pressure of air varies with altitude and with local geographic and weather conditions.
 The standard atmosphere allows to estimate properties at various altitudes.
 * 15C° = standard temperature
@@ -23,6 +23,16 @@ The standard atmosphere allows to estimate properties at various altitudes.
 (table 1)
 
 ## 1.3 Moist air thermodynamic properties
+Based on International Temperature Scale (ITS-90).
+
+Thermodynamic Properties of Moist Air at Standard Atmospheric Pressure, 101.325kPa
+
+(table 2)
+
+## 1.4 Thermodynamic properties of water at saturation
+Based on ITS-90
+
+(Table 3) 
 
 
 
