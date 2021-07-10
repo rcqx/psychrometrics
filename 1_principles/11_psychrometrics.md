@@ -1,19 +1,17 @@
 # 1. PSYCHROMETRICS
 The use of thermodynamic properties to analyse conditions and processes involving moist air.
 
-### 1.1 Dry and moist air composition
-**Atmospheric air**
- : Contains gaseous components as well as water vapor and miscellaneous contaminants
+## 1.1 Dry and moist air composition
+Atmospheric air: Contains gaseous components as well as water vapor and miscellaneous contaminants
 
-**Dry air**
- : Atmospheric air with all water vapor and contaminants removed. 
+Dry air: Atmospheric air with all water vapor and contaminants removed. 
 
-**Moist air**
- : Mixture of dry air and water vapor. The amount of water vapor varies from zero (dry air) to a maximum that 
-depends on temperature and pressure. **Saturation** is a state of equilibrium between moist air and condensed
-water phase (liquid or solid).  
+Moist air: Mixture of dry air and water vapor. The amount of water vapor varies from zero (dry air) to a maximum that 
+depends on temperature and pressure. 
 
-### 1.2 Standard atmosphere
+Saturation:State of equilibrium between moist air and condensed water phase (liquid or solid).  
+
+## 1.2 Standard atmosphere
 
 Temperature and barometric pressure of air varies with altitude and with local geographic and weather conditions.
 The standard atmosphere allows to estimate properties at various altitudes.
@@ -24,7 +22,7 @@ The standard atmosphere allows to estimate properties at various altitudes.
 
 (table 1)
 
-### 1.3 Moist air thermodynamic properties
+## 1.3 Moist air thermodynamic properties
 
 
 
