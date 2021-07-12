@@ -20,19 +20,19 @@ The standard atmosphere allows to estimate properties at various altitudes.
 * Lower atmophere is assumed to consist of dry air that behaves as a perfect gas
 * 9.80665 m/s2
 
-![image info](./static/table_1.jpg)
+![image info](./static/1_psychrometrics/static/table_1.jpg)
 
 ## 1.3 Moist air thermodynamic properties
 Based on International Temperature Scale (ITS-90).
 
 Thermodynamic Properties of Moist Air at Standard Atmospheric Pressure, 101.325kPa
 
-![image info](./static/table_2.jpg)
+![image info](./static/1_psychrometrics/static/table_2.jpg)
 
 ## 1.4 Thermodynamic properties of water at saturation
 Based on ITS-90. For detailed formulas refered to ASHRAE fundamentals, 2017.
 
-![image info](./static/table_3.jpg)
+![image info](./static/1_psychrometrics/static/table_3.jpg)
 
 ## 1.5 Humidity parameters
 **Basic parameters**
