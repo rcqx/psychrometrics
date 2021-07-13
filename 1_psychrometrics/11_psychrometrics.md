@@ -25,23 +25,23 @@ The standard atmosphere allows to estimate properties at various altitudes.
 ## 1.3 Moist air thermodynamic properties
 Based on International Temperature Scale (ITS-90). Thermodynamic Properties of Moist Air at Standard Atmospheric Pressure, 101.325kPa
 
-Humidity ratio at saturation **(Ws)**   
+* Humidity ratio at saturation **(Ws)**   
 
-Specific volume of dry air **(Vda)**
+* Specific volume of dry air **(Vda)**
 
-Specific volume difference of Vs-Vda **(Vas)**
+* Specific volume difference of Vs-Vda **(Vas)**
 
-Specific volume of moist air at saturation **(Vs)**
+* Specific volume of moist air at saturation **(Vs)**
 
-Specific enthalpy of dry air **(Vda)**
+* Specific enthalpy of dry air **(Vda)**
 
-Specific enthalpy difference of Hs-Hda **(has)** 
+* Specific enthalpy difference of Hs-Hda **(has)** 
 
-Specific enthalpy of moist air at saturation **(hs)**
+* Specific enthalpy of moist air at saturation **(hs)**
 
-Specific entropy of dry air **(Sda)**
+* Specific entropy of dry air **(Sda)**
 
-Specific entropy of moist air at saturation **(Ss)** 
+* Specific entropy of moist air at saturation **(Ss)** 
 
 ![image info](./static/table_2.png)
 
