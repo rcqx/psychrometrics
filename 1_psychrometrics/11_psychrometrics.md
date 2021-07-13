@@ -45,8 +45,18 @@ Based on International Temperature Scale (ITS-90). Thermodynamic Properties of M
 
 ![image info](./static/table_2.png)
 
-## 1.4 Thermodynamic properties of water at saturation
+## 1.4 Thermodynamic properties of water at saturation (saturated liquid)
 Based on ITS-90. For detailed formulas refered to ASHRAE fundamentals, 2017.
+
+The water vapor saturation pressure (pws) is required to determine
+a number of moist air properties, principally the saturation humid-
+ity ratio (Ws)
+
+* Absolute pressure (saturation pressure)  **(Pws)**
+* Specific volume 
+* Specific enthalpy
+* Specific entropy 
+
 
 ![image info](./static/table_3.png)
 
