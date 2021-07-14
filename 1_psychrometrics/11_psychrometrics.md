@@ -53,22 +53,25 @@ a number of moist air properties, principally the saturation humid-
 ity ratio (Ws)
 
 * Absolute pressure (saturation pressure)  **(Pws)**
-* Specific volume 
-* Specific enthalpy
-* Specific entropy 
-
+* vapor pressure (ps) can be used in equations in
+place of pws with very little error: ps=XwsP 
 
 ![image info](./static/table_3.png)
 
 ## 1.5 Humidity parameters
 **Basic parameters**
-* Humidity ratio (or mixing ratio)
-* Specific humidity
-* Absolute humidity 
-* Density
+* Humidity ratio (or mixing ratio): Ratio of the mass of water vapor to the mass of dry air
+* Specific humidity: Ratio of the mass of water vapor to total mass of moist air sample 
+* Absolute humidity (water vapor density): Ratio of the mass of water vapor to total volume sample 
+* Density: (of a moist air mixture) is the ratio of total mass to total volume
 
 **Humidity parameters involving saturation** (moist air saturation)
-* Saturation humidity ratio
-* Relative humidity 
-* Dew-point temperature
-* Thermodynamic wet-bulb temperature
+* Saturation humidity ratio: Humidity ratio of moist air saturated to water at a same temperature and pressure 
+* Relative humidity: Ratio of water vapor partial pressure in moist air at dew-point pressure and temperature to 
+the reference saturation water vapor partial pressure ar dry-bulb pressure and temperature. 
+* Dew-point temperature: Temperature of moist air saturated at pressure, with same humidity ratio W as that of the
+given sample of moist air.  
+* Thermodynamic wet-bulb temperature: Temperature at which water, by evaporating into moist air at dry-bulb temperature and humidity ratio,
+can bring air to saturation adiabatically at the same temperture while total pressure is constant. 
+
+
