@@ -60,7 +60,7 @@ place of pws with very little error: ps=XwsP
 
 ## 1.5 Humidity parameters
 **Basic parameters**
-* ** Humidity ratio (or mixing ratio):** Ratio of the mass of water vapor to the mass of dry air
+* **Humidity ratio (or mixing ratio):** Ratio of the mass of water vapor to the mass of dry air
 * **Specific humidity:** Ratio of the mass of water vapor to total mass of moist air sample 
 * **Absolute humidity (water vapor density):** Ratio of the mass of water vapor to total volume sample 
 * **Density:** (of a moist air mixture) is the ratio of total mass to total volume
