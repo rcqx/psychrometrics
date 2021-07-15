@@ -79,23 +79,23 @@ can bring air to saturation adiabatically at the same temperture while total pre
 When moist air is considered a mixture of independent perfect gases (dry air and water vapor), perfect gas equation (pV=nRT)  can be 
 assumed for each.
 
-##### Dry Air
+### Dry Air
 
 	p ( da ) V = n ( da ) RT
 
-##### Water vapor
+### Water vapor
  
 	p ( w ) V = n ( w ) RT
 
-##### The mixture also obeys the perfect gas equation:
+### The mixture also obeys the perfect gas equation:
 
 	( pda + pw ) V = ( nda + nw ) RT
 
-##### where pressure = pda + pw, Humidity ratio (_W_) is:
+### where pressure = pda + pw, Humidity ratio (_W_) is:
 
 	W = 0.621945 ( pw / p - pw )
 
-##### Saturation humidity ration (_Ws_) is:
+### Saturation humidity ration (_Ws_) is:
 
 	Ws = 0.621945 ( pws / p - pws )
 
