@@ -108,13 +108,18 @@ assumed for each.
 	Ws = 0.621945 ( pws / p - pws )
 
 Where:
-
 pda = Partial pressure of dry air
+
 pw = Partial pressure of water vapor
+
 V = Total mixture volume
+
 nda  = Number of moles of dry air
+
 nw = Number of moles of water vapor
+
 R = Universal gas constant, 8314.472 (kmol.K) 
+
 T = Absolute temperature, K 
 
 
