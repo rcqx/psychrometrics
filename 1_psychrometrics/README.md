@@ -3,20 +3,20 @@ Psychrometrics are the study of physical and thermodynamic properties of moist a
 the use of thermodynamic properties to analyse conditions and processes involving moist air.
 
 ## 1.1 Dry and moist air composition
-#### Atmospheric air 
+### Atmospheric air 
 
 Contains gaseous components as well as water vapor and miscellaneous contaminants
 
-#### Dry air
+### Dry air
 
 Atmospheric air with all water vapor and contaminants removed. 
 
-#### Moist air 
+### Moist air 
 
 Mixture of dry air and water vapor. The amount of water vapor varies from zero (dry air) to a maximum that 
 depends on temperature and pressure. 
 
-#### Saturation
+### Saturation
 
 State of equilibrium between moist air and condensed water phase (liquid or solid).  
 
