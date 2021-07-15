@@ -67,10 +67,18 @@ place of pws with very little error: ps=XwsP
 ![image info](./static/table_3.png)
 
 ## 1.5 Humidity parameters
-**Basic parameters**
-* **Humidity ratio (or mixing ratio):** Ratio of the mass of water vapor to the mass of dry air
+Basic parameters
+
+* **Humidity ratio _W_ (or mixing ratio)** ----->  Ratio of the mass of water vapor to the mass of dry air
+
+	W = M w /M da ------> W = 0.621 945 ( xw / xda ) 
+
 * **Specific humidity:** Ratio of the mass of water vapor to total mass of moist air sample 
+
+
+
 * **Absolute humidity (water vapor density):** Ratio of the mass of water vapor to total volume sample 
+
 * **Density:** (of a moist air mixture) is the ratio of total mass to total volume
 
 **Humidity parameters involving saturation** (moist air saturation)
@@ -108,6 +116,7 @@ assumed for each.
 	Ws = 0.621945 ( pws / p - pws )
 
 Where:
+
 pda = Partial pressure of dry air
 
 pw = Partial pressure of water vapor
