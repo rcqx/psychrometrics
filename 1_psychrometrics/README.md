@@ -60,7 +60,7 @@ a number of moist air properties, principally the saturation humidity ratio ( Ws
 * Absolute pressure (saturation pressure)  **( Pws )**
 * Vapor pressure ( ps ) can be used in equations in place of pws with very little error: 
 
-	ps = Xws P 
+		ps = Xws P 
 
 where x ws is the mole fraction of water vapor in saturated moist air
 at temperature t and pressure p, and p is the total barometric pressure
