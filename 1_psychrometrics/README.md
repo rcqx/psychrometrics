@@ -70,9 +70,9 @@ of moist air.
 
 ## 1.5 Humidity parameters
 
-Basic parameters
+### Basic parameters
 
-* **Humidity ratio _W_ (or mixing ratio)**
+**Humidity ratio _W_ (or mixing ratio)**
 
 Ratio of the mass of water vapor to the mass of dry air:
 
@@ -83,7 +83,7 @@ molecular masses:
 
 	W = 0.621945 ( xw / xda ) 
 
-* **Specific humidity**
+**Specific humidity**
 
 Ratio of the mass of water vapor to total mass of moist air sample 
 
@@ -93,13 +93,13 @@ In terms of humidity ratio:
 
 	Y =  W / (1 + W)
 
-* **Absolute humidity (water vapor density)** 
+**Absolute humidity (water vapor density)** 
 
 Ratio of the mass of water vapor to total volume sample 
 
 	d v = M w / V
 
-* **Density** (of a moist air mixture) 
+**Density** (of a moist air mixture) 
 
 Ratio of total mass to total volume
 
@@ -107,13 +107,33 @@ Ratio of total mass to total volume
 
 Where v is the moist air specific volume, m3/kgda
 
-**Humidity parameters involving saturation** (moist air saturation)
-* **Saturation humidity ratio:** Humidity ratio of moist air saturated to water at a same temperature and pressure 
-* **Relative humidity:** Ratio of water vapor partial pressure in moist air at dew-point pressure and temperature to 
-the reference saturation water vapor partial pressure ar dry-bulb pressure and temperature. 
-* **Dew-point temperature:** Temperature of moist air saturated at pressure, with same humidity ratio W as that of the
+### Humidity parameters involving saturation (moist air saturation)
+
+**Saturation humidity ratio _W s ( t, p )_**
+
+Humidity ratio of moist air saturated to water at a same temperature and pressure 
+
+**Relative humidity _RH_**
+
+Ratio of water vapor partial pressure in moist air at dew-point pressure and temperature to 
+the reference saturation water vapor partial pressure ar dry-bulb pressure and temperature.
+
+In layman's terms, tells us how much water vapor is in the air, compared to how much it could hold at that temperature. It is shown as a percent
+
+	( phi ) = ( p wv _ enh /p wvs _ ref | p,t ) = [ f ( p, t dp ) e (t dp ) ] / [ f ( p, t db ) e ( t db )]
+
+**Dew-point temperature _(td)_**
+
+Temperature of moist air saturated at pressure, with same humidity ratio W as that of the
 given sample of moist air.  
-* **Thermodynamic wet-bulb temperature:** Temperature at which water, by evaporating into moist air at dry-bulb temperature and humidity ratio,
+
+Put simply, is the temperature the air needs to be cooled to (at constant pressure) in order to achieve a relative humidity (RH) of 100%.
+
+	W s ( p, t d ) = W
+
+**Thermodynamic wet-bulb temperature _(t)_** 
+
+Temperature at which water, by evaporating into moist air at dry-bulb temperature and humidity ratio,
 can bring air to saturation adiabatically at the same temperture while total pressure is constant. 
 
 ## 1.6 Perfect gas relationships for dry and moist air
