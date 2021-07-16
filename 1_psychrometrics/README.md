@@ -177,6 +177,39 @@ R = Universal gas constant, 8314.472 (kmol.K)
 
 T = Absolute temperature, K 
 
+The enthalpy _(h)_ of a mixture of perfect gases equals the sum of the
+individual partial enthalpies of the components. Specific enthalpy of moist air equals:
+
+	h = h da + W hg
+
+Where h da = Specific h for dry air in kJ /kgda and hg is the specific enthalpy for saturated
+water vapor un kg / kgw at the mixture's temperature. As an aprox: 
+
+	h da =  1.006t
+	h g  =  2501 + 1.86t
+
+where _t_ = dry-bul temperature in C°. The moist air specific
+enthalpy in kJ / kg da then becomes:
+
+	h = 1.006t + W ( 2501 +  1.86t )
+
+## 1.7 Thermodynamic wet-bulb and dew-point temperature
+
+For any moist air, a temperature _t_ exist at which liquid water evaporates into the air to bring it 
+to saturation at the same _t_ and total pressure (Harrison, 1965). During this adiabatic saturation, 
+saturated air is expelled at a _t_ = to that of the injected water. 
+
+In this constant-pressure process:
+
+* _W_ = increases from initial _W_ to _Ws_
+* _h_ = increases from _h_ to hs
+* Energy conservation (h) requires: 
+
+	h + (W s * – W)h w * = h s 
+
+The value of _t_ that satifies _h_, _W_, and _p_ is the **thermodynamic wet-bulb temperature**
+
+ 
 
 
 

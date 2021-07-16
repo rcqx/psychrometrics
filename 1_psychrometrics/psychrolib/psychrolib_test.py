@@ -1,4 +1,3 @@
-from os import closerange
 import psychrolib, psychrochart
 psychrolib.SetUnitSystem(psychrolib.SI)
 
