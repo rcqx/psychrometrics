@@ -174,7 +174,7 @@ nda  = Number of moles of dry air
 nw = Number of moles of water vapor
 
 R = Universal gas constant, 8314.472 (kmol.K) 
-
+ 
 T = Absolute temperature, K 
 
 The enthalpy _(h)_ of a mixture of perfect gases equals the sum of the
@@ -191,7 +191,7 @@ water vapor un kg / kgw at the mixture's temperature. As an aprox:
 where _t_ = dry-bul temperature in C°. The moist air specific
 enthalpy in kJ / kg da then becomes:
 
-	h = 1.006t + W ( 2501 +  1.86t )
+	h = 1.006t + W ( 2501 +  1.86t )  
 
 ## 1.7 Thermodynamic wet-bulb and dew-point temperature
 
@@ -203,15 +203,22 @@ In this constant-pressure process:
 
 _W_ = increases from initial _W_ to _Ws_
 
-_h_ = increases from _h_ to hs
+_h_ = increases from _h_ to _hs_
 
-Energy conservation (h) requires: 
+Energy conservation _(h)_ requires: 
 	
 	h + ( Ws  – W ) hw = h s 
 
 The value of _t_ that satifies _h_, _W_, and _p_ is the **thermodynamic wet-bulb temperature**
 
- 
+Past equation is exact because it defines wet-bulb temperature _t_. h, hs, and ( hw = 4.186_t_ ) into last _h_ equation for _W_ solving equals: 
+
+	( 2501 – 2.326_t_ ) Ws  –  1.006 ( t – t )
+W = ----------------------------------------------------------------------------------------
+                 2501 + 1.86_t_ – 4.186_t_
+
+
+
 
 
 
