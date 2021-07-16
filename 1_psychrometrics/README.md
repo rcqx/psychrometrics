@@ -74,18 +74,38 @@ Basic parameters
 
 * **Humidity ratio _W_ (or mixing ratio)**
 
-Ratio of the mass of water vapor to the mass of dry air
+Ratio of the mass of water vapor to the mass of dry air:
 
 	W = M w /M da
 
+Where equals the mole fraction ratio x w /x da multiplied by the ratio of
+molecular masses:
+
 	W = 0.621945 ( xw / xda ) 
 
-* **Specific humidity:** Ratio of the mass of water vapor to total mass of moist air sample 
+* **Specific humidity**
 
+Ratio of the mass of water vapor to total mass of moist air sample 
 
-* **Absolute humidity (water vapor density):** Ratio of the mass of water vapor to total volume sample 
+	Y = M w /(M w + M da )
 
-* **Density:** (of a moist air mixture) is the ratio of total mass to total volume
+In terms of humidity ratio:
+
+	Y =  W / (1 + W)
+
+* **Absolute humidity (water vapor density)** 
+
+Ratio of the mass of water vapor to total volume sample 
+
+	d v = M w / V
+
+* **Density** (of a moist air mixture) 
+
+Ratio of total mass to total volume
+
+	p = ( M da + M w ) / V = ( 1/v )( 1 + W )
+
+Where v is the moist air specific volume, m3/kgda
 
 **Humidity parameters involving saturation** (moist air saturation)
 * **Saturation humidity ratio:** Humidity ratio of moist air saturated to water at a same temperature and pressure 
