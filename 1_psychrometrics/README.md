@@ -201,9 +201,9 @@ saturated air is expelled at a _t_ = to that of the injected water.
 
 In this constant-pressure process:
 
-* _W_ = increases from initial _W_ to _Ws_
-* _h_ = increases from _h_ to hs
-* Energy conservation (h) requires: 
+_W_ = increases from initial _W_ to _Ws_
+_h_ = increases from _h_ to hs
+Energy conservation (h) requires: 
 	
 	h + ( Ws  – W ) hw = h s 
 
