@@ -204,10 +204,8 @@ In this constant-pressure process:
 * _W_ = increases from initial _W_ to _Ws_
 * _h_ = increases from _h_ to hs
 * Energy conservation (h) requires: 
-
 	
-	h + (W s * – W)h w * = h s 
-
+	h + ( Ws  – W ) hw = h s 
 
 The value of _t_ that satifies _h_, _W_, and _p_ is the **thermodynamic wet-bulb temperature**
 
