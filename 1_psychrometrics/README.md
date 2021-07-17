@@ -251,23 +251,15 @@ A chart with coordinates of _h_ and _W_  ratio provides convenient graphical sol
 Moist air exists at 40°C dry-bulb temperature, 20°C thermodynamic wet-bulb temperature, and 101.325 kPa pressure. Determine the
 humidity ratio, enthalpy, dew-point temperature, relative humidity, and specific volume.
 
-_W_ ?
-_h_ ?
-_RH_ ?
-_v_ ?
+_W_ ? / _h_ ? / _RH_ ? / _v_ ?
 
+![image info](./static/example1.png)
 
+_W_ = 6.5 
 
+_h_ = 58 kJ / kg da
 
+_RH_ = 15 % 
 
-
-
-
-
-
-
-
-
-
-
+_v_= 
 
