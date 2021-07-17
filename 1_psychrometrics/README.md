@@ -229,17 +229,37 @@ This reduces to:
 
 ## 1.8 Numerical Calculation of Moist Air Properties 
 
-SITUATION 1: 
-
 ![image info](./static/Situation_1.png)
-
-SITUATION 2: 
 
 ![image info](./static/Situation_2.png)
 
-SITUATION 3: 
-
 ![image info](./static/Situation_3.png)
+
+## 1.9 Psychrometric charts
+
+A psychrometric chart graphically represents the thermodynamic properties of moist air.
+
+A chart with coordinates of _h_ and _W_  ratio provides convenient graphical solutions of many moist air problems.
+
+* ASHRAE charts 1, 2, 3 and 4 are for sea-level _p_ (101.325 kPa) 
+* Chart 5 is for 750m altitude (92.634 kPa)
+* Chart 6 is for 1500m altitude (84.54 kPa) 
+* Chart 7 is for 2250m altitude (77.058 kPa) 
+
+### Example 1
+
+Moist air exists at 40°C dry-bulb temperature, 20°C thermodynamic wet-bulb temperature, and 101.325 kPa pressure. Determine the
+humidity ratio, enthalpy, dew-point temperature, relative humidity, and specific volume.
+
+_W_ ?
+_h_ ?
+_RH_ ?
+_v_ ?
+
+
+
+
+
 
 
 
