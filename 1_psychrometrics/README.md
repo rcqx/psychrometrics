@@ -195,7 +195,7 @@ enthalpy in kJ / kg da then becomes:
 
 ## 1.7 Thermodynamic wet-bulb and dew-point temperature
 
-For any moist air, a temperature _t_ exist at which liquid water evaporates into the air to bring it 
+For any moist air, a temperature _t*_ exist at which liquid water evaporates into the air to bring it 
 to saturation at the same _t_ and total pressure (Harrison, 1965). During this adiabatic saturation, 
 saturated air is expelled at a _t_ = to that of the injected water. 
 
@@ -211,11 +211,36 @@ Energy conservation _(h)_ requires:
 
 The value of _t_ that satifies _h_, _W_, and _p_ is the **thermodynamic wet-bulb temperature**
 
-Past equation is exact because it defines wet-bulb temperature _t_. h, hs, and ( hw = 4.186_t_ ) into last _h_ equation for _W_ solving equals: 
+Past equation is exact because it defines wet-bulb temperature _t_. Substituing the h, hs, and ( _h*w_ = 4.186_t_ ) into last _h_ equation for _W_ solving equals: 
 
-	( 2501 – 2.326_t_ ) Ws  –  1.006 ( t – t )
-W = ----------------------------------------------------------------------------------------
-                 2501 + 1.86_t_ – 4.186_t_
+	W  =  ( 2501 – 2.326_t*_ ) _W*s_  –  1.006 ( _t_ – _t*_ ) / 2501 + 1.86_t_ – 4.186_t*_
+
+Where _t_ and _t*_ are in C°. Below freezing, the corresponding equation is:
+
+_h*w_ = -333.4 + 2.1 _t*_ 
+
+	W = ( 2830 - 0.24_t*_ ) _W*s_ - 1.0006 ( _t_ - _t*_ ) / 2830 + 1.86_t_ - 2.1_t*_ 
+
+The Dew-point temperature _td_ of moist air with _W_ and _p_ was defined as _td_ ( _p_, _W_ ) of _Ws_ ( _p_. _td_ )
+
+This reduces to: 
+
+	pws ( td ) = pw = ( pW ) / ( 0.621 945 + W )
+
+## 1.8 Numerical Calculation of Moist Air Properties 
+
+SITUATION 1: 
+
+![image info](./static/Situation_1.png)
+
+SITUATION 2: 
+
+![image info](./static/Situation_2.png)
+
+SITUATION 3: 
+
+![image info](./static/Situation_3.png)
+
 
 
 
