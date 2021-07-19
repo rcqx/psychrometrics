@@ -1,4 +1,5 @@
-# HVAC principles
-Basic principles utilised in HVAC
+# Principles	 
+
+Systematised ASHRAE fundamentals principles section
 
 ![image info](./static/Psy_chart.jpg)
