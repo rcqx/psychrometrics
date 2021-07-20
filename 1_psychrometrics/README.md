@@ -39,7 +39,7 @@ Based on International Temperature Scale (ITS-90). Thermodynamic Properties of M
 
 * Specific volume of moist air at saturation **( Vs )**
  
-* Specific enthalpy of dry air **( Vda )**
+* Specific enthalpy of dry air **( hda )**
 
 * Specific enthalpy difference of Hs - Hda **( has )** 
 
@@ -217,7 +217,7 @@ Past equation is exact because it defines wet-bulb temperature _t_. Substituing 
 
 Where _t_ and _t*_ are in C°. Below freezing, the corresponding equation is:
 
-_h*w_ = -333.4 + 2.1 _t*_ 
+	_h*w_ = -333.4 + 2.1 _t*_ 
 
 	W = ( 2830 - 0.24_t*_ ) _W*s_ - 1.0006 ( _t_ - _t*_ ) / 2830 + 1.86_t_ - 2.1_t*_ 
 
@@ -255,11 +255,56 @@ _W_ ? / _h_ ? / _RH_ ? / _v_ ?
 
 ![image info](./static/example1.png)
 
-_W_ = 6.5 
+_W_ = 6.5 gw / Kg da 
 
 _h_ = 58 kJ / kg da
 
-_RH_ = 15 % 
+_RH_ = 14 % 
 
-_v_= 
+_v_= 0.896 m3 / kg da
+
+## Typycal  air-conditioning processes 
+
+Charts can be used to solce several process problem involving moist air. Following example are at constant total pressure, 101.325 kPa
+
+### Moist Air Sensible Heating or Cooling
+
+Adding or removing heat alone from moist air is represented by a horizontal line due to humidity ratio _W_ remains unchanged.
+Fig shows a device that adds heat to a stream of moist air.
+For steady-flow conditions  --->  1q2 = _m_da ( _h2_ - _h1_ ) 
+
+### Example 2
+
+Moist air, saturated at 2°C, enters a heating coil at a rate of
+10 m 3 /s. Air leaves the coil at 40°C. Find the required rate of heat
+addition 
+
+![image info](./static/fig2.png)
+
+Solution: State 1 is located on
+the saturation curve at 2°C. Thus, h 1 = 13.0 kJ/kg da , W 1 = 4.38 g w /kg da ,
+and v 1 = 0.785 m 3 /kg da . State 2 is located at the intersection of t = 40°C
+and W 2 = W 1 = 4.38 g wT /kg da . Thus, h 2 = 51.5 kJ/kg da . 
+
+The mass flow of dry air is
+
+	m · da = 10/0.785 = 12.74 kg da /s
+
+![image info](./static/fig3.png)
+
+	1q2 = 12.74 ( 51.5 - 13 ) = 490 kW
+
+### Moist Air Cooling and Dehumidification
+### Example 3
+
+### Adiabatic Mixing of Two Moist Airstreams
+### Example 4
+
+### Adiabatic Mixing of Water Injected into Moist Air
+### Example 5
+
+### Space Heat Absorption and Moist Air Moisture Gains
+### Example 6
+
+
 
