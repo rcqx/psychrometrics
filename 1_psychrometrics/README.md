@@ -263,7 +263,7 @@ _RH_ = 14 %
 
 _v_= 0.896 m3 / kg da
 
-## Typycal  air-conditioning processes 
+## 1.10 Typycal  air-conditioning processes 
 
 Charts can be used to solce several process problem involving moist air. Following example are at constant total pressure, 101.325 kPa
 
@@ -305,6 +305,7 @@ The mass flow of dry air is
 
 ### Space Heat Absorption and Moist Air Moisture Gains
 ### Example 6
+
 
 
 
