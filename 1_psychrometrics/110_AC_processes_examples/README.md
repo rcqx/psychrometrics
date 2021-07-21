@@ -13,7 +13,9 @@
 * Adiabatic Mixing of Water Injected into Moist air
 * Space Heat Absoprtion and Moist Air Moisture Gains
 
-	_In my opinion, I think is better to try to solve them out first manually and with chart 1 (sea-level) prior to use python and external libraries to solve them._
+I think is better to try to solve them out first manually and with chart 1 (sea-level) prior to use tools and external libraries; thus maximizing learning.
+
+ 
 
 
 
