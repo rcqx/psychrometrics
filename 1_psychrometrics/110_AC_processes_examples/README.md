@@ -1,6 +1,6 @@
 # Typical air-conditioning processes
 
-### Examples of typical A/C processes 
+## Typical A/C processes 
 
 <p align="center">
   <img src="./static/typical_AC_processes.png">
@@ -16,7 +16,8 @@ Notebooks:
 * Adiabatic Mixing of Water Injected into Moist air
 * Space Heat Absoprtion and Moist Air Moisture Gains
 
-_In my opinion, I think is much better to try to solve them out first by hand and with a chart 1 prior to use python and external libraries to get the data._
+_In my opinion, I think is better to try to solve them out first manually and with chart 1 (sea-level) prior to use python and external libraries to solve them._
+
 
 
 
