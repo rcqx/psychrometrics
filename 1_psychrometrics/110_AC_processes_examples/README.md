@@ -2,9 +2,9 @@
 
 ### Examples of typical A/C processes 
 
-
-![image info](./static/typical_AC_processes.png)
-
+<p align="center">
+  <img src="./static/typical_AC_processes.png">
+</p>
 
 These are examples that can be found on chapter 1.10 of 2017 ASHRAE Fundamentals handbook. 
 
