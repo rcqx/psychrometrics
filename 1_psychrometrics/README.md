@@ -213,13 +213,13 @@ The value of _t_ that satifies _h_, _W_, and _p_ is the **thermodynamic wet-bulb
 
 Past equation is exact because it defines wet-bulb temperature _t_. Substituing the h, hs, and ( _h*w_ = 4.186_t_ ) into last _h_ equation for _W_ solving equals: 
 
-	W  =  ( 2501 – 2.326_t*_ ) _W*s_  –  1.006 ( _t_ – _t*_ ) / 2501 + 1.86_t_ – 4.186_t*_
+	W  =  ( 2501 – 2.326t* ) W*s  –  1.006 ( t – t* ) / 2501 + 1.86t – 4.186t*
 
 Where _t_ and _t*_ are in C°. Below freezing, the corresponding equation is:
 
-	_h*w_ = -333.4 + 2.1 _t*_ 
+	h*w = -333.4 + 2.1 t* 
 
-	W = ( 2830 - 0.24_t*_ ) _W*s_ - 1.0006 ( _t_ - _t*_ ) / 2830 + 1.86_t_ - 2.1_t*_ 
+	W = ( 2830 - 0.24t* ) W*s - 1.0006 ( t - t* ) / 2830 + 1.86t - 2.1t* 
 
 The Dew-point temperature _td_ of moist air with _W_ and _p_ was defined as _td_ ( _p_, _W_ ) of _Ws_ ( _p_. _td_ )
 
@@ -265,7 +265,7 @@ _v_= 0.896 m3 / kg da
 
 ## 1.10 Typycal  air-conditioning processes 
 
-ASHRAE Charts can be used to solce several process problem involving moist air. Following examples are at constant total pressure, 101.325 kPa
+ASHRAE psychrometrics charts can be used to solve several process problem involving moist air. Following examples are at constant total pressure, 101.325 kPa
 
 Please find notebooks in the examples folder with guided resolutions as shown in chapter 1 of 2017 ASHRAE fundamentals
 
@@ -290,7 +290,7 @@ and W 2 = W 1 = 4.38 g wT /kg da . Thus, h 2 = 51.5 kJ/kg da .
 
 The mass flow of dry air is
 
-	m · da = 10/0.785 = 12.74 kg da /s
+	m  da = 10/0.785 = 12.74 kg da /s
 
 ![image info](./static/fig3.png)
 
