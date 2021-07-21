@@ -265,7 +265,9 @@ _v_= 0.896 m3 / kg da
 
 ## 1.10 Typycal  air-conditioning processes 
 
-Charts can be used to solce several process problem involving moist air. Following example are at constant total pressure, 101.325 kPa
+ASHRAE Charts can be used to solce several process problem involving moist air. Following examples are at constant total pressure, 101.325 kPa
+
+Please find notebooks in the examples folder with guided resolutions as shown in chapter 1 of 2017 ASHRAE fundamentals
 
 ### Moist Air Sensible Heating or Cooling
 
@@ -293,19 +295,5 @@ The mass flow of dry air is
 ![image info](./static/fig3.png)
 
 	1q2 = 12.74 ( 51.5 - 13 ) = 490 kW
-
-### Moist Air Cooling and Dehumidification
-### Example 3
-
-### Adiabatic Mixing of Two Moist Airstreams
-### Example 4
-
-### Adiabatic Mixing of Water Injected into Moist Air
-### Example 5
-
-### Space Heat Absorption and Moist Air Moisture Gains
-### Example 6
-
-
 
 
