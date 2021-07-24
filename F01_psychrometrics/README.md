@@ -1,6 +1,4 @@
-# TOC
-
-1. [Psychrometrics] (# 1. Psychrometrics) 
+- [Psychrometrics] (# 1. Psychrometrics) 
 
 # 1. Psychrometrics
 Psychrometrics are the study of physical and thermodynamic properties of moist air, i.e.,
