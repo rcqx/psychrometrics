@@ -96,7 +96,8 @@ of moist air.
 
 ### Basic parameters
 
-* Humidity ratio _W_ (or mixing ratio): Ratio of the mass of water vapor to the mass of dry air:
+#### Humidity ratio _W_ (or mixing ratio): 
+Ratio of the mass of water vapor to the mass of dry air:
 
 	W = M w /M da
 
@@ -105,7 +106,8 @@ molecular masses:
 
 	W = 0.621945 ( xw / xda ) 
 
-* Specific humidity: Ratio of the mass of water vapor to total mass of moist air sample 
+#### Specific humidity:
+Ratio of the mass of water vapor to total mass of moist air sample 
 
 	Y = M w /(M w + M da )
 
@@ -113,11 +115,13 @@ In terms of humidity ratio:
 
 	Y =  W / (1 + W)
 
-* Absolute humidity (water vapor density): Ratio of the mass of water vapor to total volume sample 
+#### Absolute humidity (water vapor density): 
+Ratio of the mass of water vapor to total volume sample 
 
 	d v = M w / V
 
-* Density (of a moist air mixture): Ratio of total mass to total volume
+#### Density (of a moist air mixture):
+Ratio of total mass to total volume
 
 	p = ( M da + M w ) / V = ( 1/v )( 1 + W )
 
@@ -125,11 +129,11 @@ Where v is the moist air specific volume, m3/kgda
 
 ### Humidity parameters involving saturation (moist air saturation)
 
-1. **Saturation humidity ratio _W s ( t, p )_**
+#### Saturation humidity ratio _W s ( t, p )_
 
 Humidity ratio of moist air saturated to water at a same temperature and pressure 
 
-2. **Relative humidity _RH_**
+#### Relative humidity _RH_
 
 Ratio of water vapor partial pressure in moist air at dew-point pressure and temperature to 
 the reference saturation water vapor partial pressure ar dry-bulb pressure and temperature.
@@ -138,7 +142,7 @@ In layman's terms, tells us how much water vapor is in the air, compared to how 
 
 	( phi ) = ( p wv _ enh /p wvs _ ref | p,t ) = [ f ( p, t dp ) e (t dp ) ] / [ f ( p, t db ) e ( t db )]
 
-3. **Dew-point temperature _(td)_**
+#### Dew-point temperature _(td)_
 
 Temperature of moist air saturated at pressure, with same humidity ratio W as that of the
 given sample of moist air.  
@@ -147,7 +151,7 @@ Put simply, is the temperature the air needs to be cooled to (at constant pressu
 
 	W s ( p, t d ) = W
 
-4. **Thermodynamic wet-bulb temperature _(t)_** 
+#### Thermodynamic wet-bulb temperature _(t)_ 
 
 Temperature at which water, by evaporating into moist air at dry-bulb temperature and humidity ratio,
 can bring air to saturation adiabatically at the same temperture while total pressure is constant. 
