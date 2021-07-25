@@ -8,7 +8,8 @@
   + [1.7 Thermodynamic wet-bulb and dew-point temperature](#17-thermodynamic-wet-bulb-and-dew-point-temperature)
   + [1.8 Numerical Calculation of Moist Air Properties](#18-numerical-calculation-of-moist-air-properties)
   + [1.9 Psychrometric charts](#19-psychrometric-charts)
-  + [1.10 Typycal  air-conditioning processes](#110-typycal-air-conditioning-processes)
+  + [Example 1](#example-1)
+  + [1.10 Typical air-conditioning processes](#110-typical-air-conditioning-processes)
 
 # 1. Psychrometrics
 Psychrometrics are the study of physical and thermodynamic properties of moist air, i.e.,
@@ -265,6 +266,8 @@ humidity ratio, enthalpy, dew-point temperature, relative humidity, and specific
 
 _W_ ? / _h_ ? / _RH_ ? / _v_ ?
 
+Chart 1 displaying properties:
+
 ![image info](./static/example1.png)
 
 _W_ = 6.5 gw / Kg da 
@@ -275,37 +278,30 @@ _RH_ = 14 %
 
 _v_= 0.896 m3 / kg da
 
-## 1.10 Typycal  air-conditioning processes 
+## 1.10 Typical air-conditioning processes 
 
 ASHRAE psychrometrics charts can be used to solve several process problem involving moist air. Following examples are at constant total pressure, 101.325 kPa
 
 Please find notebooks in the examples folder with guided resolutions as shown in chapter 1 of 2017 ASHRAE fundamentals
 
-### Moist Air Sensible Heating or Cooling
+## 1.11 Transport properties of moist air 
 
-Adding or removing heat alone from moist air is represented by a horizontal line due to humidity ratio _W_ remains unchanged.
-Fig shows a device that adds heat to a stream of moist air.
-For steady-flow conditions  --->  1q2 = _m_da ( _h2_ - _h1_ ) 
+For certain scientific and experimental many moist air properties are important. Generally classified as "Transport Properties of Moist Air" these properties are categorised as:
+* Diffusion coefficient
+* Viscosity
+* Thermal conductivity 
+* Thermal diffusion factor
 
-### Example 2
+![image info](./static/table_4.png)
 
-Moist air, saturated at 2°C, enters a heating coil at a rate of
-10 m 3 /s. Air leaves the coil at 40°C. Find the required rate of heat
-addition 
+![image info](./static/figure_12.png)
 
-![image info](./static/fig2.png)
+![image info](./static/figure_13.png)
 
-Solution: State 1 is located on
-the saturation curve at 2°C. Thus, h 1 = 13.0 kJ/kg da , W 1 = 4.38 g w /kg da ,
-and v 1 = 0.785 m 3 /kg da . State 2 is located at the intersection of t = 40°C
-and W 2 = W 1 = 4.38 g wT /kg da . Thus, h 2 = 51.5 kJ/kg da . 
 
-The mass flow of dry air is
 
-	m  da = 10/0.785 = 12.74 kg da /s
 
-![image info](./static/fig3.png)
 
-	1q2 = 12.74 ( 51.5 - 13 ) = 490 kW
+
 
 
