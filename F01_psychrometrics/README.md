@@ -1,23 +1,13 @@
-[1. Psychrometrics](#1.-Psychrometrics)
-
-[1.1 Dry and moist air composition](#1.1-Dry-and-moist-air-composition)
-
-[1.2 Standard atmosphere](#1.2-Standard-atmosphere) 
-
+[1. Psychrometrics](#1-psychrometrics)
+[1.1 Dry and moist air composition](#11-dry-and-moist-air-composition)
+[1.2 Standard atmosphere](#12-standard-atmosphere) 
 [1.3 Moist air thermodynamic properties](#1.3Moist air thermodynamic properties)
-
 [1.4 Thermodynamic properties of water at saturation](#1.4Thermodynamic properties of water at saturation)
-
 [1.5 Humidity parameters](#1.5Humidity parameters)
-
 [1.6 Perfect gas relationships for dry and moist air](#1.6Perfect gas relationships for dry and moist air)
-
 [1.7 Thermodynamic wet-bulb and dew-point temperature](#1.7Thermodynamic wet-bulb and dew-point temperature)
-
 [1.8 Numerical Calculation of Moist Air Properties](#1.8Numerical Calculation of Moist Air Properties)
-
 [1.9 Psychrometric charts](#1.9Psychrometric charts)
-
 [1.10 Typycal  air-conditioning processes](#1.10Typycal  air-conditioning processes)
 
 # 1. Psychrometrics
