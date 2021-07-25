@@ -1,4 +1,4 @@
-* [PSYCHROMETRICS](#psychrometrics)
+[PSYCHROMETRICS](#psychrometrics)
   + [1 Dry and moist air composition](#1-dry-and-moist-air-composition)
   + [2 Standard atmosphere](#2-standard-atmosphere)
   + [3 Moist air thermodynamic properties](#3-moist-air-thermodynamic-properties)
@@ -13,7 +13,7 @@
   + [11 Transport properties of moist air](#11-transport-properties-of-moist-air)
 
 # PSYCHROMETRICS
-Psychrometrics are the study of physical and thermodynamic properties of moist air, i.e.,
+Psychrometrics is the study of physical and thermodynamic properties of moist air, i.e.,
 the use of thermodynamic properties to analyse conditions and processes involving moist air.
 
 ![image info](./static/fig1.png)
