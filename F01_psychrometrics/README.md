@@ -1,6 +1,6 @@
-1. [Psychrometrics](#1-psychrometrics)/n
-	1.1 [Dry and moist air composition](#11-dry-and-moist-air-composition)/n
-	1.2 [Standard atmosphere](#12-standard-atmosphere)/n
+1. [Psychrometrics](#1-psychrometrics)
+..1.1[Dry and moist air composition](#11-dry-and-moist-air-composition)
+	1.2 [Standard atmosphere](#12-standard-atmosphere)
 	1.3 [Moist air thermodynamic properties](#13-moist-air-thermodynamic-properties)
 	1.4 [Thermodynamic properties of water at saturation](#14-thermodynamic-properties-of-water-at-saturation)
 	1.5 [Humidity parameters](#15-Humidity-parameters)
