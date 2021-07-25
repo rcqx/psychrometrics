@@ -1,8 +1,8 @@
-[1. Psychrometrics](#1.Psychrometrics)
+[1. Psychrometrics](#1.-Psychrometrics)
 
-[1.1 Dry and moist air composition](#1.1Dry and moist air composition)
+[1.1 Dry and moist air composition](#1.1-Dry-and-moist-air-composition)
 
-[1.2 Standard atmosphere](#1.2Standard atmosphere) 
+[1.2 Standard atmosphere](#1.2-Standard-atmosphere) 
 
 [1.3 Moist air thermodynamic properties](#1.3Moist air thermodynamic properties)
 
