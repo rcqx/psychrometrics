@@ -10,26 +10,37 @@
   + [1.9 Psychrometric charts](#19-psychrometric-charts)
   + [Example 1](#example-1)
   + [1.10 Typical air-conditioning processes](#110-typical-air-conditioning-processes)
+  + [1.11 Transport properties of moist air](#111-transport-properties-of-moist-air)
 
 # 1. Psychrometrics
 Psychrometrics are the study of physical and thermodynamic properties of moist air, i.e.,
 the use of thermodynamic properties to analyse conditions and processes involving moist air.
 
+![image info](./static/fig1.png)
+
 ## 1.1 Dry and moist air composition
-**Atmospheric air**  --->  Contains gaseous components as well as water vapor and miscellaneous contaminants
+### Atmospheric air
 
-**Dry air**  --->  Atmospheric air with all water vapor and contaminants removed. 
+Contains gaseous components as well as water vapor and miscellaneous contaminants.
 
-**Moist air**  --->  Mixture of dry air and water vapor. The amount of water vapor varies from zero (dry air) to a maximum that 
+### Dry air
+
+Atmospheric air with all water vapor and contaminants removed. 
+
+### Moist air
+
+Mixture of dry air and water vapor. The amount of water vapor varies from zero (dry air) to a maximum that 
 depends on temperature and pressure. 
 
-**Saturation**  --->  State of equilibrium between moist air and condensed water phase (liquid or solid).  
+### Saturation
+
+State of equilibrium between moist air and condensed water phase (liquid or solid).  
 
 ## 1.2 Standard atmosphere
 Temperature and barometric pressure of air varies with altitude and with local geographic and weather conditions.
 The standard atmosphere allows to estimate properties at various altitudes.
 
-**Standard values**
+### Standard values
 
 Temperature  --->  15C°
 
@@ -85,9 +96,7 @@ of moist air.
 
 ### Basic parameters
 
-1. **Humidity ratio _W_ (or mixing ratio)**
-
-Ratio of the mass of water vapor to the mass of dry air:
+* Humidity ratio _W_ (or mixing ratio): Ratio of the mass of water vapor to the mass of dry air:
 
 	W = M w /M da
 
@@ -96,9 +105,7 @@ molecular masses:
 
 	W = 0.621945 ( xw / xda ) 
 
-2. **Specific humidity**
-
-Ratio of the mass of water vapor to total mass of moist air sample 
+* Specific humidity: Ratio of the mass of water vapor to total mass of moist air sample 
 
 	Y = M w /(M w + M da )
 
@@ -106,15 +113,11 @@ In terms of humidity ratio:
 
 	Y =  W / (1 + W)
 
-3. **Absolute humidity (water vapor density)** 
-
-Ratio of the mass of water vapor to total volume sample 
+* Absolute humidity (water vapor density): Ratio of the mass of water vapor to total volume sample 
 
 	d v = M w / V
 
-4. **Density** (of a moist air mixture) 
-
-Ratio of total mass to total volume
+* Density (of a moist air mixture): Ratio of total mass to total volume
 
 	p = ( M da + M w ) / V = ( 1/v )( 1 + W )
 
