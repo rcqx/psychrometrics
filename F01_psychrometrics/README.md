@@ -1,6 +1,6 @@
-1. [Psychrometrics](#1-psychrometrics)
-	1.1 [Dry and moist air composition](#11-dry-and-moist-air-composition)
-	1.2 [Standard atmosphere](#12-standard-atmosphere) 
+1. [Psychrometrics](#1-psychrometrics)/n
+	1.1 [Dry and moist air composition](#11-dry-and-moist-air-composition)/n
+	1.2 [Standard atmosphere](#12-standard-atmosphere)/n
 	1.3 [Moist air thermodynamic properties](#13-moist-air-thermodynamic-properties)
 	1.4 [Thermodynamic properties of water at saturation](#14-thermodynamic-properties-of-water-at-saturation)
 	1.5 [Humidity parameters](#15-Humidity-parameters)
@@ -63,7 +63,7 @@ Based on International Temperature Scale (ITS-90). Thermodynamic Properties of M
 
 ![image info](./static/table_2.png)
 
-## 1.4 Thermodynamic properties of water at saturation (saturated liquid)
+## 1.4 Thermodynamic properties of water at saturation
 Based on ITS-90. For detailed formulas refered to ASHRAE fundamentals, 2017.
 
 The water vapor saturation pressure ( pws ) is required to determine
