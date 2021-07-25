@@ -1,24 +1,24 @@
-* [1. Psychrometrics](#1-psychrometrics)
-  + [1.1 Dry and moist air composition](#11-dry-and-moist-air-composition)
-  + [1.2 Standard atmosphere](#12-standard-atmosphere)
-  + [1.3 Moist air thermodynamic properties](#13-moist-air-thermodynamic-properties)
-  + [1.4 Thermodynamic properties of water at saturation](#14-thermodynamic-properties-of-water-at-saturation)
-  + [1.5 Humidity parameters](#15-Humidity-parameters)
-  + [1.6 Perfect gas relationships for dry and moist air](#16-perfect-gas-relationships-for-dry-and-moist-air)
-  + [1.7 Thermodynamic wet-bulb and dew-point temperature](#17-thermodynamic-wet-bulb-and-dew-point-temperature)
-  + [1.8 Numerical Calculation of Moist Air Properties](#18-numerical-calculation-of-moist-air-properties)
-  + [1.9 Psychrometric charts](#19-psychrometric-charts)
+* [PSYCHROMETRICS](#psychrometrics)
+  + [1 Dry and moist air composition](#1-dry-and-moist-air-composition)
+  + [2 Standard atmosphere](#2-standard-atmosphere)
+  + [3 Moist air thermodynamic properties](#3-moist-air-thermodynamic-properties)
+  + [4 Thermodynamic properties of water at saturation](#4-thermodynamic-properties-of-water-at-saturation)
+  + [5 Humidity parameters](#5-Humidity-parameters)
+  + [6 Perfect gas relationships for dry and moist air](#6-perfect-gas-relationships-for-dry-and-moist-air)
+  + [7 Thermodynamic wet-bulb and dew-point temperature](#7-thermodynamic-wet-bulb-and-dew-point-temperature)
+  + [8 Numerical Calculation of Moist Air Properties](#8-numerical-calculation-of-moist-air-properties)
+  + [9 Psychrometric charts](#9-psychrometric-charts)
   + [Example 1](#example-1)
-  + [1.10 Typical air-conditioning processes](#110-typical-air-conditioning-processes)
-  + [1.11 Transport properties of moist air](#111-transport-properties-of-moist-air)
+  + [10 Typical air-conditioning processes](#10-typical-air-conditioning-processes)
+  + [11 Transport properties of moist air](#11-transport-properties-of-moist-air)
 
-# 1. Psychrometrics
+# PSYCHROMETRICS
 Psychrometrics are the study of physical and thermodynamic properties of moist air, i.e.,
 the use of thermodynamic properties to analyse conditions and processes involving moist air.
 
 ![image info](./static/fig1.png)
 
-## 1.1 Dry and moist air composition
+## 1 Dry and moist air composition
 ### Atmospheric air
 
 Contains gaseous components as well as water vapor and miscellaneous contaminants.
@@ -36,7 +36,7 @@ depends on temperature and pressure.
 
 State of equilibrium between moist air and condensed water phase (liquid or solid).  
 
-## 1.2 Standard atmosphere
+## 2 Standard atmosphere
 Temperature and barometric pressure of air varies with altitude and with local geographic and weather conditions.
 The standard atmosphere allows to estimate properties at various altitudes.
 
@@ -52,7 +52,7 @@ Lower atmophere is assumed to consist of dry air that behaves as a perfect gas
 
 ![image info](./static/table_1.png)
 
-## 1.3 Moist air thermodynamic properties
+## 3 Moist air thermodynamic properties
 Based on International Temperature Scale (ITS-90). Thermodynamic Properties of Moist Air at Standard Atmospheric Pressure, 101.325kPa
 
 * Humidity ratio at saturation **( Ws )**   
@@ -75,7 +75,7 @@ Based on International Temperature Scale (ITS-90). Thermodynamic Properties of M
 
 ![image info](./static/table_2.png)
 
-## 1.4 Thermodynamic properties of water at saturation
+## 4 Thermodynamic properties of water at saturation
 Based on ITS-90. For detailed formulas refered to ASHRAE fundamentals, 2017.
 
 The water vapor saturation pressure ( pws ) is required to determine
@@ -92,7 +92,7 @@ of moist air.
 
 ![image info](./static/table_3.png)
 
-## 1.5 Humidity parameters
+## 5 Humidity parameters
 
 ### Basic parameters
 
@@ -156,7 +156,7 @@ Put simply, is the temperature the air needs to be cooled to (at constant pressu
 Temperature at which water, by evaporating into moist air at dry-bulb temperature and humidity ratio,
 can bring air to saturation adiabatically at the same temperture while total pressure is constant. 
 
-## 1.6 Perfect gas relationships for dry and moist air
+## 6 Perfect gas relationships for dry and moist air
 
 When moist air is considered a mixture of independent perfect gases (dry air and water vapor), perfect gas equation (pV=nRT)  can be 
 assumed for each.
@@ -213,7 +213,7 @@ enthalpy in kJ / kg da then becomes:
 
 	h = 1.006t + W ( 2501 +  1.86t )  
 
-## 1.7 Thermodynamic wet-bulb and dew-point temperature
+## 7 Thermodynamic wet-bulb and dew-point temperature
 
 For any moist air, a temperature _t*_ exist at which liquid water evaporates into the air to bring it 
 to saturation at the same _t_ and total pressure (Harrison, 1965). During this adiabatic saturation, 
@@ -247,7 +247,7 @@ This reduces to:
 
 	pws ( td ) = pw = ( pW ) / ( 0.621 945 + W )
 
-## 1.8 Numerical Calculation of Moist Air Properties 
+## 8 Numerical Calculation of Moist Air Properties 
 
 ![image info](./static/Situation_1.png)
 
@@ -255,7 +255,7 @@ This reduces to:
 
 ![image info](./static/Situation_3.png)
 
-## 1.9 Psychrometric charts
+## 9 Psychrometric charts
 
 A psychrometric chart graphically represents the thermodynamic properties of moist air.
 
@@ -285,13 +285,13 @@ _RH_ = 14 %
 
 _v_= 0.896 m3 / kg da
 
-## 1.10 Typical air-conditioning processes 
+## 10 Typical air-conditioning processes 
 
 ASHRAE psychrometrics charts can be used to solve several process problem involving moist air. Following examples are at constant total pressure, 101.325 kPa
 
 Please find notebooks in the examples folder with guided resolutions as shown in chapter 1 of 2017 ASHRAE fundamentals
 
-## 1.11 Transport properties of moist air 
+## 11 Transport properties of moist air 
 
 For certain scientific and experimental many moist air properties are important. Generally classified as "Transport Properties of Moist Air" these properties are categorised as:
 * Diffusion coefficient
