@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
 from psychrochart import PsychroChart, load_config
-import matplotlib.pyplot as plt
 
 #preconfigured style
 #chart('ashrae').plot(ax=plt.gca())
