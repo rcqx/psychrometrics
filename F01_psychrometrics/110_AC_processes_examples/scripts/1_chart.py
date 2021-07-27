@@ -24,8 +24,9 @@ connectors = [{'start': 'exterior',
                'style': {'color': [0.573, 0.106, 0.318, 0.7],
                          "linewidth": 2, "linestyle": "-."}}]
 
+chart.plot_points_dbt_rh(points, connectors)
+
 # Add a legend
 chart.plot_legend(markerscale=.7, frameon=False, fontsize=10, labelspacing=1.2)
 
-chart.plot_points_dbt_rh(points, connectors)
 plt.show()
