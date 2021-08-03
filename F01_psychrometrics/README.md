@@ -287,9 +287,39 @@ _v_= 0.896 m3 / kg da
 
 ## 10 Typical air-conditioning processes 
 
-ASHRAE psychrometrics charts can be used to solve several process problem involving moist air. Following examples are at constant total pressure, 101.325 kPa
+ASHRAE psychrometrics charts can be used to solve several process problem 
+involving moist air. Following examples are at constant total pressure, 101.325 kPa
+Please find notebooks in the examples folder with guided resolutions as shown in 
+chapter 1 of 2017 ASHRAE fundamentals
 
-Please find notebooks in the examples folder with guided resolutions as shown in chapter 1 of 2017 ASHRAE fundamentals
+#### Moist Air Sensible Heating or Cooling
+Adding heat alone to or removing heat alone from moist air is represeted
+by a horizontal line on the ASHRAE chart, due to humidity ratio remaining 
+unchanged. 
+
+For steady- flow conditions, the required rate of heat addition is: 
+
+	1q2 = m da ( h2 - h1 ) 
+
+#### Moist Air Cooling and Dehumidification
+Moisture condensation occurs when moist air is cooled to a temperature below
+its initial dew point. Figure 4 shows an schematic cooling coil where moist air
+is assumed to be uniformly processed.Although water can be removed at various 
+temperatures ranging from the initial dew point to the final saturation 
+temperature, it is assumed that condensed water is cooled to the final 
+temperature (t2) before it drains from the system. 
+
+For the system in fig 4, the steady-flow energy and material balance equations
+are:
+	m da h1 = m da h2 + 1q2 + mw hw2
+	m da W1 = m da W2 + m w
+Thus, 
+	m w = m da ( W1 - w2 )
+	1q2 = m da[( h1 - h2 ) - ( w1 - w2 ) hw2]
+
+#### Adiabatic Mixing of Two Moist Airstreams
+#### Adiabatic Mixing of Water Injected into Moist Air
+#### Space Heat Absorption and Moist Air Moisture Gains
 
 ## 11 Transport properties of moist air 
 
