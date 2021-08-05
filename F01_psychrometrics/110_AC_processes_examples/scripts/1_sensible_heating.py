@@ -1,12 +1,11 @@
 # Moist air sensible heating example
+# Moist air, saturated at 2°C, enters heating coil at 10 m 3 /s rate 
+# Air leaves the coil at 40°C. Find required rate of heat addition (1q2)
+# 1q2 = m da (h2 - h1)
 
 import psychrolib as psy 
 import psychrochart as chart
 psy.SetUnitSystem(psy.SI)
-
-# Moist air, saturated at 2°C, enters heating coil at 10 m 3 /s rate 
-# Air leaves the coil at 40°C. Find required rate of heat addition (1q2)
-# 1q2 = m da (h2 - h1)
 
 # Mass flow air is given in cubic meters over secs (m3/s)
 mass_f = 10.0 
