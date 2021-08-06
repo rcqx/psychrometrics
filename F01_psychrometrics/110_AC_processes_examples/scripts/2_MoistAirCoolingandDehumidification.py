@@ -43,10 +43,13 @@ hw = w * hw2
 print(mda)
 print( h1_g)
 print(h2_g)
-print(W1)
-print(W2)
+print(W1_Kgw)
+print(W2_Kgw)
 print(hw2)
 
 # the rate of heat removal from the air  stream is:
-# 1q2 = mda [(h1-h2)-(w1-w2)hw2]
-# 1q2 = 
+# 1q2 = mda * [(h1-h2)-((w1-w2)*hw2)]
+
+q2 = mda * (h1_g-h2_g)-((W1_Kgw-W2_Kgw)*hw2) # KW of refrigeration required
+
+print(q2)
