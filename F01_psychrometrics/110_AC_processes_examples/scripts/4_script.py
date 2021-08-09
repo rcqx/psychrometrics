@@ -12,9 +12,11 @@ psy.SetUnitSystem(psy.SI)
 
 # L3-2/1-3 = mda1/mda2 or L1-3/1-2 = mda2/mda3
 
-#t1 4°C DB, 2°C WB, 2m3/s
+# t1 4°C DB, 2°C WB, 2m3/s
 v1 = psy.GetDryAirVolume(4.0, 101325.0)
-mda1 = 2.0 / v1
+print(v1)
+
+mda1 = 4.0 / v1
 print(mda1)
 #t2 25°C DB, 50% rh, 6.25 m3/s
 v2 = psy.GetDryAirVolume(25.0, 101325.0)
@@ -31,3 +33,5 @@ print(Line3)
 #Point 3 = 21 * 0.743
 point3 = 21 * 0.743
 print(point3)
+
+print(mda1,mda2,mda3)
