@@ -1,4 +1,4 @@
-# f01-Psychrometrics	 
+# F01-Psychrometrics	 
 
 Systematised F01-Psychrometric chapter of 2017 ASHRAE fundamentals with examples 
 
